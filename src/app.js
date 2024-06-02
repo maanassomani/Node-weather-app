@@ -37,7 +37,7 @@ app.get('/about',(req,res)=>{
 app.get('/help',(req,res)=>{
     res.render('help',{
         title:'Help page',
-        message:'You have reached help page',
+        message:'You have reached help page!',
         name:'Maanas'
     })
 })
